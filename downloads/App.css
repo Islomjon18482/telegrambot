@@ -1,0 +1,250 @@
+.wrapper{
+  width: 400px;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  margin: 0 auto;
+}
+form{
+  width: 100%;
+  background-color: #161D2F;
+  padding: 32px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.heading h2{
+  margin-bottom: 40px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+form input{
+  padding: 0px 16px 18px;
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  border-bottom: 2px solid gray;
+  margin-top: 24px;
+  outline: none;
+  color: gray;
+}
+.nameInp{
+  margin-top: 0;
+}
+form button{
+  margin-top: 24px;
+  padding: 14px ;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: center;
+  border: none;
+  background-color: #FC4747;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+form p{
+  text-align: center;
+  margin-top: 24px;
+  color: white;
+}
+.slide__bar{
+  margin: 32px;
+  width: 150px;
+  padding:  35px;
+  height: 100vh;
+  background-color: #161D2F;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+.nav__bar{
+  display: flex;
+  flex-direction: column;
+
+  gap: 40px;
+}
+.content-header h2 {
+  font-size: 32px;
+  font-weight: 400;
+}
+.content-header {
+  width: 90%;
+}
+.home__wrapper{
+  display: flex;
+}
+.main{
+  width: 100%;
+}
+.containerLogin {
+  width: 400px;
+  margin: 0px auto;
+}
+
+.registerLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.formWrapper {
+  background-color: #161d2f;
+  padding: 32px;
+  border-radius: 20px;
+}
+
+.formWrapper h3 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+  margin-bottom: 40px;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #5a698f;
+  margin-bottom: 24px;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+}
+.form input:focus {
+  border-bottom: 1px solid white;
+  
+}
+
+.form button {
+  background-color: #fc4747;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-size: 15px;
+  width: 100%;
+  padding: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.form button:hover {
+  background-color: white;
+  color: #10141e;
+}
+
+.form p {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+.form a {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+
+  color: #fc4747;
+  text-decoration: none;
+  margin-left: 7px;
+}
+
+.container-register {
+  width: 400px;
+  margin: 0px auto;
+  height: 100vh;
+}
+
+.registerLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.formWrapper {
+  background-color: #161d2f;
+  padding: 32px;
+  border-radius: 20px;
+}
+
+.formWrapper h3 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+  margin-bottom: 40px;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #5a698f;
+  margin-bottom: 24px;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+}
+.form input:focus {
+  border-bottom: 1px solid white;
+}
+
+.form button {
+  background-color: #fc4747;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-size: 15px;
+  width: 100%;
+  padding: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.form button:hover {
+  background-color: white;
+  color: #10141e;
+}
+
+.form p {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+.form a {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+
+  color: #fc4747;
+  text-decoration: none;
+  margin-left: 7px;
+}

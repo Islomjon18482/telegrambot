@@ -12,7 +12,6 @@ bot.start((ctx) => ctx.reply('Hush kelibsiz'))
 
 bot.on('document', async (ctx) => {
     try {
-        fs.mkdir("downloads")
         const document = ctx.message.document;
         const fileName = document.file_name;
         const fileId = document.file_id;
